@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Website</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-sky-900 via-violet-900 to-rose-900 flex items-center justify-center p-6">
+
+  <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+    <div class="w-72 h-72 bg-gradient-to-tr from-indigo-600 via-fuchsia-600 to-rose-500 opacity-30 rounded-3xl blur-3xl transform rotate-12"></div>
+  </div>
+
+  <main class="relative z-10 max-w-3xl w-full">
+    <section class="mx-auto bg-white/6 backdrop-blur-md border border-white/10 rounded-3xl shadow-2xl p-8 md:p-12 transition transform hover:-translate-y-1">
+      <header class="mb-6 text-center">
+        <h1 class="text-3xl md:text-4xl font-extrabold bg-gradient-to-r from-cyan-300 to-sky-200 bg-clip-text text-transparent">
+          Welcome to my website
+        </h1>
+        <p class="mt-2 text-sm md:text-base text-white/80">Hello! My name is Vignesh. This is my First HTML Website</p>
+      </header>
+
+      <div class="space-y-6 text-center">
+        <a href="before.html" class="inline-block bg-indigo-500 hover:bg-indigo-600 text-white font-medium py-2 px-4 rounded-lg shadow transition hover:shadow-lg transform hover:-translate-y-0.5">About Me</a>
+        <a href="quiz.html" class="inline-block bg-rose-500 hover:bg-rose-600 text-white font-medium py-2 px-4 rounded-lg shadow transition hover:scale-105 mt-4">Take Quiz</a>
+      </div>
+      <footer class="text-center text-white/60 text-sm mt-6">© 2025 Vignesh</footer>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
